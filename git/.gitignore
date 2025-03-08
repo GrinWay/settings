@@ -1,0 +1,43 @@
+###> app ###
+*.exe
+/bundles/
+private.*
+.idea/
+###< app ###
+
+###> symfony/framework-bundle ###
+# https://symfony.com/doc/current/deployment.html
+# composer dump-env prod
+/.env.local.php
+
+/drivers/
+/.env.local
+/.env.*.local
+/*.local
+/public/*
+!/public/index.php
+/config/secrets/*/*.decrypt.private.php
+/config/secrets/*.decrypt.private.php
+/config/secrets/*private*
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
