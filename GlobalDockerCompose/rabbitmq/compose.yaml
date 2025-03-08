@@ -1,0 +1,13 @@
+# clear && docker kill rabbitmq && docker rm rabbitmq && docker compose up -d
+networks:
+    default:
+        name: app
+        driver: bridge
+
+services:
+    rabbitmq:
+        image: rabbitmq:4.0.5-alpine
+        container_name: rabbitmq
+        restart: always
+        #ports:
+        #- '4369:4369'

@@ -1,0 +1,14 @@
+# clear && docker kill symfony && docker rm symfony && docker rmi symfony-symfony && docker compose up -d
+networks:
+    default:
+        name: app
+        driver: bridge
+
+services:
+    symfony:
+        build: .
+        container_name: symfony
+        restart: always
+        
+        volumes:
+        -   'C:/Workspace/1_PROJECTS:/app'
