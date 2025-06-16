@@ -9,6 +9,7 @@ services:
         build: .
         container_name: symfony
         restart: always
-        
+        environment:
+            APP_VARIABLE: "${APP_VARIABLE}"
         volumes:
-        -   'C:/Workspace/1_PROJECTS:/app'
+        -   'A:/WORKSPACE/PROJECTS:/app'

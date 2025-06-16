@@ -6,8 +6,12 @@ networks:
 
 services:
     rabbitmq:
-        image: rabbitmq:4.0.5-alpine
-        container_name: rabbitmq
-        restart: always
-        #ports:
-        #- '4369:4369'
+        image: 'rabbitmq:3-management'
+        container_name: 'rabbitmq'
+        restart: 'unless-stopped'
+        environment:
+            RABBITMQ_DEFAULT_USER: root
+            RABBITMQ_DEFAULT_PASS: root
+        ports:
+        - '5672:5672'
+        - '15672:15672'

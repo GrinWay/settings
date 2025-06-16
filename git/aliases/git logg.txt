@@ -1,1 +1,1 @@
-alias.logg log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an %ae>%Creset' --abbrev-commit
+git config --global alias.logg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an %ae>%Creset' --abbrev-commit"

@@ -10,7 +10,7 @@ RUN apk add bash-completion --no-interactive --no-progress --quiet
 
 RUN apk add vim --no-interactive --no-progress --quiet
 
-RUN apk add openssh --no-interactive --no-progress --quiet
+#RUN apk add openssh --no-interactive --no-progress --quiet
 RUN apk add rsync --no-interactive --no-progress --quiet
 
 RUN apk add make --no-interactive --no-progress --quiet

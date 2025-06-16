@@ -1,0 +1,16 @@
+networks:
+    default:
+        name: 'app'
+        driver: 'bridge'
+
+services:
+    php-fpm:
+        build: .
+        restart: 'always'
+        container_name: 'php-fpm'
+        environment:
+            XDEBUG_MODE: debug
+            XDEBUG_CONFIG: "client_host=host.docker.internal client_port=9003"
+            PHP_IDE_CONFIG: 'serverName=app'
+        extra_hosts:
+        - 'host.docker.internal:host-gateway'
