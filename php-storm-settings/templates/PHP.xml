@@ -1,0 +1,22 @@
+<templateSet group="PHP">
+  <template name="pfc" value="public function __construct($PARAMETERS$) {&#10;    $END$&#10;}" description="constructor" toReformat="true" toShortenFQNames="false">
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="sf" value="static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="l" value="static fn($PARAMETERS$) =&gt; $END$" description="static lambda function" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
