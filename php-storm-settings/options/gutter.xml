@@ -1,0 +1,36 @@
+<application>
+  <component name="LineMarkerSettings">
+    <option name="providers">
+      <map>
+        <entry key="RenderedDoc" value="false" />
+        <entry key="com.intellij.clouds.docker.gateway.ideSettings.DevcontainerAddSettingsMarkerProvider" value="false" />
+        <entry key="com.intellij.execution.lineMarker.RunLineMarkerProvider" value="false" />
+        <entry key="com.intellij.httpClient.http.request.codeInsight.HttpClientOverrideLineMarkerProvider" value="false" />
+        <entry key="com.intellij.httpClient.http.request.codeInsight.HttpRequestDiffLineMarkerProvider" value="false" />
+        <entry key="com.intellij.httpClient.http.request.environment.codeinsight.HttpRequestEnvironmentSetSecretLineMarkerProvider" value="false" />
+        <entry key="com.intellij.httpClient.http.request.microservices.endpoints.EmbeddedHttpClientEditorRunLineMarkerProvider" value="false" />
+        <entry key="com.intellij.lang.javascript.highlighting.JSRecursiveCallLineMarkerProvider" value="false" />
+        <entry key="com.intellij.lang.javascript.highlighting.TypeScriptSourceMappingLineMarkerProvider" value="true" />
+        <entry key="com.intellij.openapi.vcs.changes.ignore.codeInsight.IgnoreDirectoryMarkerProvider" value="false" />
+        <entry key="com.intellij.sql.editor.SqlRecursiveCallLineMakerProvider" value="false" />
+        <entry key="com.intellij.ui.ColorLineMarkerProvider" value="true" />
+        <entry key="com.intellij.vcs.github.ultimate.action.branding.BrandingColorLineMarkerProvider" value="false" />
+        <entry key="com.intellij.vcs.github.ultimate.action.branding.BrandingIconLineMarkerProvider" value="false" />
+        <entry key="com.jetbrains.php.architecture.complexityMetrics.codeSmell.presentation.CodeSmellLineMarkerProvider" value="false" />
+        <entry key="com.jetbrains.php.codeInsight.PhpMetaDeclarationLineMarkerProvider" value="false" />
+        <entry key="com.jetbrains.php.codeInsight.PhpRecursiveCallLineMarkerProvider" value="false" />
+        <entry key="com.jetbrains.php.lang.PhpLineMarkerProvider" value="false" />
+        <entry key="com.jetbrains.php.restClient.guzzle.GuzzleRunRequestLineMarkerProvider" value="false" />
+        <entry key="js.implemented" value="true" />
+        <entry key="js.implementing" value="true" />
+        <entry key="js.overridden" value="true" />
+        <entry key="js.overriding" value="true" />
+        <entry key="org.editorconfig.configmanagement.editor.EditorConfigPreviewMarkerProvider" value="false" />
+        <entry key="org.intellij.plugins.markdown.extensions.common.plantuml.PlantUMLCodeFenceDownloadLineMarkerProvider" value="false" />
+        <entry key="org.intellij.plugins.markdown.images.editor.ConfigureHtmlImageLineMarkerProvider" value="false" />
+        <entry key="org.intellij.plugins.markdown.images.editor.ConfigureMarkdownImageLineMarkerProvider" value="false" />
+        <entry key="org.intellij.plugins.markdown.images.editor.ConfigureTextHtmlImageLineMarkerProvider" value="false" />
+      </map>
+    </option>
+  </component>
+</application>
