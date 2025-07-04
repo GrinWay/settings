@@ -1,0 +1,42 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="Docker" type="docker">
+      <configuration>
+        <option name="apiUrl" value="npipe:////./pipe/docker_engine" />
+        <option name="autoDetectExePaths" value="false" />
+        <option name="certificatesPath" />
+        <option name="customConfiguratorId" value="DockerDefaultConnectionConfigurator" />
+        <option name="dockerComposeExePath" value="/usr/bin/docker" />
+        <option name="dockerExePath" value="/usr/bin/docker" />
+      </configuration>
+    </remote-server>
+    <remote-server name="Docker2" type="docker">
+      <configuration>
+        <option name="apiUrl" value="unix:///run/user/1000/docker.sock" />
+        <option name="autoDetectExePaths" value="true" />
+        <option name="certificatesPath" />
+        <option name="customConfiguratorId" value="DockerDefaultConnectionConfigurator" />
+        <option name="dockerComposeExePath" value="/usr/bin/docker" />
+        <option name="dockerExePath" value="/usr/bin/docker" />
+      </configuration>
+    </remote-server>
+    <remote-server name="passport" type="docker">
+      <configuration>
+        <option name="apiUrl" value="unix:///var/run/docker.sock" />
+        <option name="autoDetectExePaths" value="true" />
+        <option name="certificatesPath" />
+        <option name="customConfiguratorId" value="DockerDefaultConnectionConfigurator" />
+        <option name="dockerComposeExePath" value="/usr/bin/docker" />
+        <option name="dockerExePath" value="/usr/bin/docker" />
+        <option name="pathMappings">
+          <list>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="$USER_HOME$/ET/GitLab/passport/app" />
+              <option name="virtualMachinePath" value="/www/v3/passport/app" />
+            </DockerPathMappingImpl>
+          </list>
+        </option>
+      </configuration>
+    </remote-server>
+  </component>
+</application>

@@ -84,7 +84,7 @@
         <option value="Markdown.MarkdownTableInlayProviderSettingsKey" />
       </set>
     </option>
-    <option name="lastViewedProviderKeyId" value="" />
+    <option name="lastViewedProviderKeyId" value="PHP.parameter.hints.old" />
   </component>
   <component name="InlineCompletionOnboarding">
     <option name="onboardingFinished" value="true" />

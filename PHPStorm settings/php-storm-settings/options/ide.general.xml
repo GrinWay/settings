@@ -3,7 +3,7 @@
     <option name="showTipsOnStartup" value="false" />
     <option name="isUseSafeWrite" value="false" />
     <option name="confirmExit" value="false" />
-    <option name="confirmOpenNewProject2" value="1" />
+    <option name="confirmOpenNewProject2" value="0" />
     <option name="processCloseConfirmation" value="TERMINATE" />
   </component>
   <component name="Registry">
@@ -26,7 +26,6 @@
         <entry key="ReadOnlyAttribute" value="false" />
         <entry key="TypeScriptInfo" value="false" />
         <entry key="git" value="false" />
-        <entry key="php.debug.status.widget" value="false" />
         <entry key="php.language.level.widget" value="false" />
         <entry key="webDeployment.default.server.widget" value="false" />
       </map>
