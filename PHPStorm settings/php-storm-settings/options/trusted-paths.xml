@@ -6,10 +6,13 @@
         <entry key="$USER_HOME$/ET/GitLab/admin20" value="true" />
         <entry key="$USER_HOME$/ET/GitLab/auth" value="true" />
         <entry key="$USER_HOME$/ET/GitLab/fabrikant/fabrikant" value="true" />
+        <entry key="$USER_HOME$/ET/GitLab/firm-list" value="true" />
         <entry key="$USER_HOME$/ET/GitLab/passport" value="true" />
         <entry key="$USER_HOME$/ET/GitLab/passport/deploy" value="true" />
         <entry key="$USER_HOME$/ET/GitLab/site/fabrikant-docker" value="true" />
         <entry key="$USER_HOME$/ET/site/fabrikant-docker" value="true" />
+        <entry key="$USER_HOME$/projects/github/bundles/telegram-bundle" value="true" />
+        <entry key="$USER_HOME$/projects/github/karaoke-taxi.ru" value="true" />
         <entry key="$USER_HOME$/projects/github/media-processor" value="true" />
         <entry key="$USER_HOME$/projects/sandbox" value="true" />
         <entry key="A:\WORKSPACE\PROJECTS\api-platform" value="true" />
@@ -42,6 +45,7 @@
         <option value="A:\WORKSPACE\PROJECTS" />
         <option value="$USER_HOME$/ET/GitLab/fabrikant" />
         <option value="$USER_HOME$/ET/GitLab" />
+        <option value="$USER_HOME$/projects/github" />
       </list>
     </option>
   </component>
