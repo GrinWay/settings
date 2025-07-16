@@ -17,7 +17,6 @@
       <map>
         <entry key="CodeStyleStatusBarWidget" value="false" />
         <entry key="CwmWireStatsWidgetFactory" value="false" />
-        <entry key="Encoding" value="false" />
         <entry key="FlowJSInfo" value="false" />
         <entry key="LanguageServiceStatusBarWidget" value="false" />
         <entry key="LineSeparator" value="false" />
